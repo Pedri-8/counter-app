@@ -1,19 +1,30 @@
-# Counter App
+# Counter App 🚀
 
-A simple React counter app built with Vite.  
-The app displays a counter value with buttons to increase and decrease it. The counter cannot go below zero.
+A simple counter application built with React and Vite. It demonstrates basic use of React state and component handling.
 
-## 🔧 Features
+### 🔢 Features
 
-- Increment counter by +4 at once
-- Decrement counter (only if > 0)
-- Prevents negative counter values
-- React + Vite setup
+- Increment counter by +1 (multiple times on single click)
+- Decrement counter (but never below 0)
+- Counter value shown in multiple places
+- Button click updates state using `useState`
 
-## 📦 Installation
+### 💡 Technologies Used
+
+- React
+- Vite
+- JavaScript (ES6+)
+- GitHub Pages for deployment
+
+### 📦 Setup
 
 ```bash
+# Clone this repository
 git clone https://github.com/Pedri-8/counter-app.git
 cd counter-app
+
+# Install dependencies
 npm install
+
+# Run development server
 npm run dev
